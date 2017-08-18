@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Canvas</title>
+  <style type="text/css">
+  body {
+    margin: 0;
+    position: relative;
+    display: flex;
+  }
+  canvas {
+    position:absolute;
+  }
+  .main {
+    position: absolute;
+    z-index: 100;
+    background: rgba(37, 35, 36, 0.73);
+    margin: 0 auto;
+    color: whitesmoke;
+    padding: 30px;
+    text-align: center;
+    left: 30%;
+  }
+  </style>
+</head>
+<body>
+  <div class="main">
+    <h1>Mouse hover bubbles</h1>
+    <p>Move your mouse all over</p>
+  </div>
+  <canvas>
+  </canvas>
+  <script src="canvas.js" type="text/javascript"></script>
+</body>
+</html>
